@@ -18,12 +18,13 @@
 
 .conteiner__imagem { padding: 1em; }
 
-.lista-menu
-{
-    display: none;
-position: absolute;
-top: 100%;
-width: 60vw;}
+.lista-menu{
+     display: none;
+     position: absolute;
+     top: 100%;
+     width: 60vw;
+    }
+
 
 .conteiner__botao:checked ~ .lista-menu{display: block;}
 
@@ -35,12 +36,15 @@ width: 60vw;}
 
 .lista-menu-titulo{
     color: var(--laranja);
+    font-weight: 700;
 }
-.lista-menu__link {
+.lista-menu__link{
     background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-text-transform: uppercase;
-
+    text-transform: uppercase;
+}
+.conteiner__botao {
+    display: none;
 }

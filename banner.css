@@ -1,5 +1,5 @@
-.banner{
-    background-color: var(--azul-degrade);
+.banner {
+    background: var(--azul-degrade);
     color: var(--branco);
     text-align: center;
     padding: 2.5em 2em;
@@ -8,7 +8,6 @@
 .banner__titulo {
     font-size: 18px;
     font-weight: 700;
-
 }
 
 .banner__texto {
@@ -31,20 +30,18 @@
     font-weight: 400;
     text-align: center;
     color: var(--branco);
-    background-color: url("../img/Lupa.svg") no-repeat;
+    background: url("Lupa.svg") no-repeat;
     background-position: 1em;
 }
 
-@media screen and (min-width: 1024px){
-    .banner__titulo{ 
+@media screen and (mind-width 1024px) {
+    .banner__titulo {
         font-size: 36px;
     }
-
-
-.banner__pesquisa {
-    width: 50%;
-}
-.banner__pesquisa::placeholder{
-    background-position: 7em;
-}
+    .banner__pesquisa {
+        width: 50%;
+    }
+    .banner__pesquisa::placeholder {
+        background-position: 7em;
+    }
 }
